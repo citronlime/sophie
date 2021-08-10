@@ -64,6 +64,8 @@ img{
 }
 img.portrait{
   border-radius:50%;
+  max-width:100%;
+  object-fit:cover;
 }
 
 .accent-text,
@@ -141,11 +143,17 @@ section {
   .splitter {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+
   }
+.about-me{
+  min-width:50%;
+}
 /*ARTICLES*/
   .articles.inverse {
     background: #99D930;
     color: #252525;
+min-width:50%;
   }
 
   .articles.inverse .accent-text,
