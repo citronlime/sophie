@@ -62,10 +62,13 @@ img{
   max-width:100%;
 
 }
+
 img.portrait{
+  height:250px;
+  width:250px;
   border-radius:50%;
-  max-width:100%;
   object-fit:cover;
+
 }
 
 .accent-text,
@@ -140,6 +143,11 @@ section {
 }
 
 @media (min-width: 750px) {
+  img.portrait{
+    height:500px;
+    width:500px;
+
+  }
   .splitter {
     display: flex;
     align-items: center;
